@@ -32,9 +32,10 @@ Find the treasure box in one of the rooms. Score maximum points by completing ch
 - Push the changes to your fork!
 ``` git add . ```
 ```git commit -m "Your feature description"```
-```git push origin <your branch name>```![Screenshot (181)](https://github.com/chinmay2807/Haunted_House/assets/137691792/7fad4061-c5ee-4dc8-9617-b559d5862cd7)
+```git push origin <your branch name>```
 
 - All set, Feel free to contribute and send a Pull Request
 - Wait for your PR to be reviewed and merged
 - For more info on how to contribute check out <a href="https://github.com/IEEE-VIT/Haunted_House/blob/main/CONTRIBUTING.md">```CONTRIBUTING.md```</a>
 
+![Screenshot (181)](https://github.com/chinmay2807/Haunted_House/assets/137691792/c9b308f7-f779-442f-b7df-d6197d8518eb)
