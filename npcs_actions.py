@@ -13,7 +13,21 @@ def witch_challenge(npc,score):
     print(f"Witch: {npc['dialogue']}")
     print(f"Witch: Excellent! {npc['reward']}")
     
-    # Write code here
+    a=int(input())
+    b=int(input())
+    print("give the product of the two numbers.")
+    import = time.tine()
+    d=a*b
+    start = time.time()
+    c=int(input())
+    end =time.time()
+    if c==d:
+        if ((end-start)<=60):
+            score=score+20
+        else:
+            score=score-5
+    elif c!=d:
+        score=score-5
 
     return score
 
