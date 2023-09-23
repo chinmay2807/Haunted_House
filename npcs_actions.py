@@ -58,11 +58,15 @@ else they loose 5 points.
 '''
 def sorcerer_challenge(npc, score):
     print(f"Sorcerer: {npc['dialogue']}")
-    print("Riddle: ",{"sorcerer"["riddle"]})
-    ans=input()
-    if(ans=="piano"):
-        print({"sorcerer"["reward"]})
-        score+=20
+    print(f"Sorcerer: {npc['dialogue']}")
+    print("What can run but not walk?")
+    answer=input()
+    if answer == "river":
+        score=score+20
     else:
-        score-=5
+        score=score-5
+    return score
+
+# write your code here
+
     return score
